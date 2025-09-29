@@ -1,0 +1,63 @@
+/* app calculator styles */
+
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 40px;
+}
+
+h1 { 
+    color: blue;
+    text-align: center;
+}
+
+h2 { 
+    color: green;
+    text-align: center;
+}
+
+label {
+    color: black;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin: 5px;
+}
+
+.current-numbers {
+    background-color: lightgray;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.results {
+    background-color: lightgray;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.error {
+    color: red;
+    background-color: pink;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.result-value {
+    color: red;
+    font-weight: bold;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}

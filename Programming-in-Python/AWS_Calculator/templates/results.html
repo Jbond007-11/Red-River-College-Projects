@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMath Calculator - Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>MyMath Calculator</h1>
+    <h2>Results</h2>
+    
+    <p><a href="/clear">Clear Numbers</a></p>
+    
+    <p><strong>Your Numbers:</strong> {{ results.numbers }}</p>
+    
+    <div class="results">
+        <p><strong>Maximum:</strong> <span class="result-value">{{ results.max }}</span></p>
+        <p><strong>Average:</strong> <span class="result-value">{{ results.average }}</span></p>
+        <p><strong>Standard Deviation:</strong> <span class="result-value">{{ results.stddev }}</span></p>
+    </div>
+    
+    <p>
+        <a href="/"><button>New Calculation</button></a>
+        <a href="/clear"><button>Clear Numbers</button></a>
+    </p>
+    
+</body>
+</html>

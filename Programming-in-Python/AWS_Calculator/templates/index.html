@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMath Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>MyMath Calculator</h1>
+    
+    <p><a href="/clear">Clear Numbers</a></p>
+
+    {% if error %}
+        <div class="error">
+            Error: {{ error }}
+        </div>
+    {% endif %}
+    
+    <form method="POST" action="/add_numbers">
+        <p>
+            <label for="numbers">Enter numbers separated by commas:</label><br>
+            <input type="text" 
+                   id="numbers" 
+                   name="numbers" 
+                   placeholder="1, 2, 3, 4, 5" 
+                   required>
+            <button type="submit">Add Numbers</button>
+        </p>
+    </form>
+    
+    {% if numbers %}
+        <div class="current-numbers">
+            <p><strong>Current Numbers:</strong> {{ numbers }}</p>
+            <p><strong>Total Count:</strong> {{ numbers|length }}</p>
+            <p><a href="/calculate"><button>Calculate</button></a></p>
+        </div>
+    {% else %}
+        <p>No numbers entered yet.</p>
+    {% endif %}
+    
+</body>
+</html>
