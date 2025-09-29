@@ -6,8 +6,8 @@ This project was developed using the **AWS Academy Learner Lab**, which uses tem
 
 ### Project Architecture
 This project is split into two main parts:
-1.  **AWS Lambda Function (`aws_lambda.py`):** This Python script runs in the AWS cloud. It's designed to receive a list of numbers, calculate their standard deviation, and return the result in a JSON format.
-2.  **Local Invocation Script (`Topic Challenge - ... - StdDev.py`):** This Python script runs on your local machine. It uses the `boto3` library to securely connect to your AWS account, send the list of numbers to the `StdDev` Lambda function, and print the returned result.
+1.  **AWS Lambda Function (`lambda_function.py`):** This Python script runs in the AWS cloud. It's designed to receive a list of numbers, calculate their standard deviation, and return the result in a JSON format.
+2.  **Local Invocation Script (`aws_lambda.py`):** This Python script runs on your local machine. It uses the `boto3` library to securely connect to your AWS account, send the list of numbers to the `StdDev` Lambda function, and print the returned result.
 
 ---
 ### Setup and Deployment
@@ -73,6 +73,6 @@ This project is split into two main parts:
 2.  On your local machine, install the AWS SDK for Python: `pip install boto3`.
 3.  Run the local invocation script from your terminal:
     ```bash
-    python "Topic Challenge - Programming in Python - Module 4A - AWS Lambda - StdDev.py"
+    python "aws_lambda.py"
     ```
 4.  The script will connect to your Lambda function, send the numbers `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`, and print the calculated standard deviation.
