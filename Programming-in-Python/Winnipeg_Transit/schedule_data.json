@@ -1,0 +1,623 @@
+{
+    "stop-schedule": {
+        "stop": {
+            "key": 10627,
+            "name": "Northbound Main at Portage and Main Junction",
+            "number": 10627,
+            "direction": "Northbound",
+            "side": "Farside",
+            "street": {
+                "key": 2265,
+                "name": "Main Street",
+                "type": "Street"
+            },
+            "cross-street": {
+                "key": 2871,
+                "name": "Pioneer Avenue",
+                "type": "Avenue"
+            },
+            "centre": {
+                "utm": {
+                    "zone": "14U",
+                    "x": 633738,
+                    "y": 5528609
+                },
+                "geographic": {
+                    "latitude": "49.89491",
+                    "longitude": "-97.1379"
+                }
+            }
+        },
+        "route-schedules": [
+            {
+                "route": {
+                    "key": "FX3",
+                    "number": "FX3",
+                    "name": "Route FX3 Regent - Grant",
+                    "customer-type": "regular",
+                    "coverage": "regular",
+                    "badge-label": "FX3",
+                    "badge-style": {
+                        "class-names": {
+                            "class-name": [
+                                "badge-label",
+                                "FX3"
+                            ]
+                        },
+                        "background-color": "#f27ea6",
+                        "border-color": "#f27ea6",
+                        "color": "#ffffff"
+                    }
+                },
+                "scheduled-stops": [
+                    {
+                        "key": "30793816-35",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T13:39:00",
+                                "estimated": "2025-08-28T13:38:08"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T13:39:00",
+                                "estimated": "2025-08-28T13:38:08"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX3-0-R",
+                            "name": "Regent - Grant to Redonda & Pandora"
+                        },
+                        "bus": {
+                            "key": 881,
+                            "bike-rack": "false",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30793846-35",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T13:50:00",
+                                "estimated": "2025-08-28T13:50:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T13:50:00",
+                                "estimated": "2025-08-28T13:50:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX3-0-R",
+                            "name": "Regent - Grant to Redonda & Pandora"
+                        },
+                        "bus": {
+                            "key": 477,
+                            "bike-rack": "true",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30793847-35",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T14:01:00",
+                                "estimated": "2025-08-28T14:01:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T14:01:00",
+                                "estimated": "2025-08-28T14:01:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX3-0-R",
+                            "name": "Regent - Grant to Redonda & Pandora"
+                        },
+                        "bus": {
+                            "key": 396,
+                            "bike-rack": "true",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30793848-35",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T14:12:00",
+                                "estimated": "2025-08-28T14:12:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T14:12:00",
+                                "estimated": "2025-08-28T14:12:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX3-0-R",
+                            "name": "Regent - Grant to Redonda & Pandora"
+                        },
+                        "bus": {
+                            "key": 601,
+                            "bike-rack": "false",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30793849-35",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T14:23:00",
+                                "estimated": "2025-08-28T14:23:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T14:23:00",
+                                "estimated": "2025-08-28T14:23:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX3-0-R",
+                            "name": "Regent - Grant to Redonda & Pandora"
+                        },
+                        "bus": {
+                            "key": 979,
+                            "bike-rack": "true",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30793850-35",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T14:35:00",
+                                "estimated": "2025-08-28T14:35:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T14:35:00",
+                                "estimated": "2025-08-28T14:35:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX3-0-R",
+                            "name": "Regent - Grant to Redonda & Pandora"
+                        },
+                        "bus": {
+                            "key": 408,
+                            "bike-rack": "true",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30793851-35",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T14:47:00",
+                                "estimated": "2025-08-28T14:47:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T14:47:00",
+                                "estimated": "2025-08-28T14:47:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX3-0-R",
+                            "name": "Regent - Grant to Redonda & Pandora"
+                        },
+                        "bus": {
+                            "key": 359,
+                            "bike-rack": "false",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30793852-35",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T14:59:00",
+                                "estimated": "2025-08-28T14:59:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T14:59:00",
+                                "estimated": "2025-08-28T14:59:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX3-0-R",
+                            "name": "Regent - Grant to Redonda & Pandora"
+                        },
+                        "bus": {
+                            "key": 333,
+                            "bike-rack": "false",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30793853-35",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T15:12:00",
+                                "estimated": "2025-08-28T15:12:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T15:12:00",
+                                "estimated": "2025-08-28T15:12:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX3-0-R",
+                            "name": "Regent - Grant to Redonda & Pandora"
+                        },
+                        "bus": {
+                            "key": 151,
+                            "bike-rack": "true",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30793963-4",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T15:18:00",
+                                "estimated": "2025-08-28T15:18:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T15:18:00",
+                                "estimated": "2025-08-28T15:18:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX3-0-R",
+                            "name": "Regent - Grant to Redonda & Pandora"
+                        },
+                        "bus": {
+                            "key": 102,
+                            "bike-rack": "false",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30793854-35",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T15:24:00",
+                                "estimated": "2025-08-28T15:24:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T15:24:00",
+                                "estimated": "2025-08-28T15:24:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX3-0-R",
+                            "name": "Regent - Grant to Redonda & Pandora"
+                        },
+                        "bus": {
+                            "key": 352,
+                            "bike-rack": "false",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30794004-35",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T15:30:00",
+                                "estimated": "2025-08-28T15:30:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T15:30:00",
+                                "estimated": "2025-08-28T15:30:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX3-0-R",
+                            "name": "Regent - Grant to Redonda & Pandora"
+                        },
+                        "bus": {
+                            "key": 963,
+                            "bike-rack": "true",
+                            "wifi": "false"
+                        }
+                    }
+                ]
+            },
+            {
+                "route": {
+                    "key": "FX2",
+                    "number": "FX2",
+                    "name": "Route FX2 Main - St. Mary's",
+                    "customer-type": "regular",
+                    "coverage": "regular",
+                    "badge-label": "FX2",
+                    "badge-style": {
+                        "class-names": {
+                            "class-name": [
+                                "badge-label",
+                                "FX2"
+                            ]
+                        },
+                        "background-color": "#f37043",
+                        "border-color": "#f37043",
+                        "color": "#ffffff"
+                    }
+                },
+                "scheduled-stops": [
+                    {
+                        "key": "30794080-22",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T13:32:00",
+                                "estimated": "2025-08-28T13:34:58"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T13:32:00",
+                                "estimated": "2025-08-28T13:34:58"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX2-0-G",
+                            "name": "Main - St. Marys to Garden City Centre"
+                        },
+                        "bus": {
+                            "key": 977,
+                            "bike-rack": "true",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30794081-22",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T13:44:00",
+                                "estimated": "2025-08-28T13:45:30"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T13:44:00",
+                                "estimated": "2025-08-28T13:45:30"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX2-0-G",
+                            "name": "Main - St. Marys to Garden City Centre"
+                        },
+                        "bus": {
+                            "key": 615,
+                            "bike-rack": "false",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30794082-22",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T13:56:00",
+                                "estimated": "2025-08-28T13:56:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T13:56:00",
+                                "estimated": "2025-08-28T13:56:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX2-0-G",
+                            "name": "Main - St. Marys to Garden City Centre"
+                        },
+                        "bus": {
+                            "key": 323,
+                            "bike-rack": "false",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30794146-22",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T14:08:00",
+                                "estimated": "2025-08-28T14:08:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T14:08:00",
+                                "estimated": "2025-08-28T14:08:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX2-0-G",
+                            "name": "Main - St. Marys to Garden City Centre"
+                        },
+                        "bus": {
+                            "key": 914,
+                            "bike-rack": "true",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30794085-22",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T14:20:00",
+                                "estimated": "2025-08-28T14:20:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T14:20:00",
+                                "estimated": "2025-08-28T14:20:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX2-0-G",
+                            "name": "Main - St. Marys to Garden City Centre"
+                        },
+                        "bus": {
+                            "key": 148,
+                            "bike-rack": "true",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30794157-22",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T14:33:00",
+                                "estimated": "2025-08-28T14:33:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T14:33:00",
+                                "estimated": "2025-08-28T14:33:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX2-0-G",
+                            "name": "Main - St. Marys to Garden City Centre"
+                        },
+                        "bus": {
+                            "key": 452,
+                            "bike-rack": "true",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30794086-22",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T14:46:00",
+                                "estimated": "2025-08-28T14:46:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T14:46:00",
+                                "estimated": "2025-08-28T14:46:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX2-0-G",
+                            "name": "Main - St. Marys to Garden City Centre"
+                        },
+                        "bus": {
+                            "key": 479,
+                            "bike-rack": "true",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30794087-22",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T14:59:00",
+                                "estimated": "2025-08-28T14:59:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T14:59:00",
+                                "estimated": "2025-08-28T14:59:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX2-0-G",
+                            "name": "Main - St. Marys to Garden City Centre"
+                        },
+                        "bus": {
+                            "key": 109,
+                            "bike-rack": "false",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30794156-22",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T15:12:00",
+                                "estimated": "2025-08-28T15:12:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T15:12:00",
+                                "estimated": "2025-08-28T15:12:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX2-0-G",
+                            "name": "Main - St. Marys to Garden City Centre"
+                        },
+                        "bus": {
+                            "key": 845,
+                            "bike-rack": "false",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30794238-4",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T15:19:00",
+                                "estimated": "2025-08-28T15:19:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T15:19:00",
+                                "estimated": "2025-08-28T15:19:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX2-0-G",
+                            "name": "Main - St. Marys to Garden City Centre"
+                        }
+                    },
+                    {
+                        "key": "30794089-22",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T15:25:00",
+                                "estimated": "2025-08-28T15:25:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T15:25:00",
+                                "estimated": "2025-08-28T15:25:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX2-0-G",
+                            "name": "Main - St. Marys to Garden City Centre"
+                        },
+                        "bus": {
+                            "key": 977,
+                            "bike-rack": "true",
+                            "wifi": "false"
+                        }
+                    },
+                    {
+                        "key": "30794212-22",
+                        "cancelled": "false",
+                        "times": {
+                            "arrival": {
+                                "scheduled": "2025-08-28T15:31:00",
+                                "estimated": "2025-08-28T15:31:00"
+                            },
+                            "departure": {
+                                "scheduled": "2025-08-28T15:31:00",
+                                "estimated": "2025-08-28T15:31:00"
+                            }
+                        },
+                        "variant": {
+                            "key": "FX2-0-G",
+                            "name": "Main - St. Marys to Garden City Centre"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "query-time": "2025-08-28T13:31:04"
+}
